@@ -1,0 +1,8 @@
+{
+  "version": 2,
+  "routes": [
+    { "src": "/api/tasks", "dest": "/api/tasks.py" },
+    { "src": "/api/health", "dest": "/api/health.py" },
+    { "src": "/(.*)", "dest": "/public/$1" }
+  ]
+}
